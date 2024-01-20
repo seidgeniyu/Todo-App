@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.todo-container {
+   max-width: 500px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f5f5f5;
+   border-radius: 5px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: "Playfair Display", serif;
+   margin-top: 40px;
+   margin-bottom: 40px;
+ }
+ 
+ h1 {
+   text-align: center;
+   color: #333;
+   font-family: "Playfair Display", serif;
+ }
+ 
+ .input-section {
+   display: flex;
+   margin-bottom: 20px;
+   font-family: "Playfair Display", serif;
+ }
+ 
+ .input-field {
+   flex: 1;
+   padding: 10px;
+   font-size: 16px;
+   border: none;
+   border-radius: 5px 0 0 5px;
+   font-family: "Playfair Display", serif;
+ }
+ 
+ .add-btn,
+ .update-btn,
+ .cancel-btn {
+   padding: 10px 20px;
+   font-size: 16px;
+   background-color: #4caf50;
+   color: #fff;
+   border: none;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   font-family: "Playfair Display", serif;
+ }
+ 
+ 
+ .add-btn:hover,
+ .update-btn:hover,
+ .cancel-btn:hover {
+   background-color: #45a049;
+ }
+ 
+ .filter-buttons {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+   
+ }
+ 
+ .filter-buttons button {
+   padding: 8px 16px;
+   font-size: 14px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   margin-right: 10px;
+   font-family: "Playfair Display", serif;
+ }
+ 
+ .filter-buttons button:last-child {
+   margin-right: 0;
+ }
+ 
+ .filter-buttons button:hover {
+   background-color: #555;
+ }
+ 
+ .todo-list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .todo-list li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #fff;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   transition: transform 0.3s;
+ }
+ 
+ .todo-list li:last-child {
+   margin-bottom: 0;
+ }
+ 
+ .todo-list li:hover {
+   transform: scale(1.02);
+ }
+ 
+ .completed {
+   background-color: #bcb7b7;
+   text-decoration: line-through;
+   opacity: 0.6;
+ }
+ 
+ .task {
+   flex: 1;
+   cursor: pointer;
+   width: 280px;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   font-family: "Playfair Display", serif;
+ }
+ 
+ .task.expanded {
+   white-space: normal;
+ }
+ 
+ .btn-group button {
+   padding: 5px;
+   font-size: 16px;
+   background-color: transparent;
+   /* color: red; */
+   border: none;
+   cursor: pointer;
+   transition: color 0.3s;
+ }
+ 
+ .btn-group button:not(:last-child) {
+   margin-right: 5px;
+ }
+ 
+ .btn-group button:hover {
+   color: #555;
+ }
+
+ .btn-remove{
+  color: rgb(234, 90, 90);
+ }
+ 
